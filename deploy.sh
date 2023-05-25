@@ -2,7 +2,7 @@
 
 # Set your variables
 SOURCE_FOLDER="build"
-TARGET_REPO="https://github.com/premkumar0/premkumar0.github.io.git"
+TARGET_REPO="https://github.com/sai-naveen-kumar/dump-repo.git"
 TARGET_BRANCH="main" # Or any branch you want to use for the build folder
 COMMIT_MESSAGE=$(git log -1 --pretty=%B)
 
