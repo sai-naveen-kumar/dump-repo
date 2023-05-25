@@ -2,7 +2,7 @@
 
 # Set your variables
 SOURCE_FOLDER="build"
-TARGET_REPO="https://github.com/sai-naveen-kumar/dump-repo.git"
+TARGET_REPO="https://github.com/sai-naveen-kumar/dump-repo.git "
 TARGET_BRANCH="main" # Or any branch you want to use for the build folder
 COMMIT_MESSAGE=$(git log -1 --pretty=%B)
 
@@ -18,7 +18,7 @@ TEMP_DIR=$(mktemp -d)
 git clone "$TARGET_REPO" "$TEMP_DIR" --branch "$TARGET_BRANCH" --single-branch --depth 1
 
 # Copy the build folder to the temporary directory
-rsync -a --delete --exclude='.*/' "$SOURCE_FOLDER/" "$TEMP_DIR/"
+# rsync -a --delete --exclude='.*/' "$SOURCE_FOLDER/" "$TEMP_DIR/"
 
 cd "$TEMP_DIR"
 git config user.name "premkumar0"
