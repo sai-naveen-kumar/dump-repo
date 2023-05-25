@@ -1,0 +1,44 @@
+section {
+    padding-top: 5rem !important;
+}
+
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.section-title div:first-of-type {
+    font-size: 2.2rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.section-title div::after {
+    content: "";
+    position: relative;
+    display: block;
+    height: 5px;
+    width: calc(2ch);
+    background: var(--text-blue);
+    border-radius: 10px;
+    bottom: 1px;
+    left: 0;
+    left: calc(50% - 1ch);
+}
+
+.section-title div::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: var(--text-grey);
+    bottom: 3px;
+}
+
+.section-title>p {
+    text-align: center;
+}

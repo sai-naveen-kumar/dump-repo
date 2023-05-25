@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@700&family=Nunito:wght@700&display=swap');
+
+:root {
+    --bg-lite-blue: #F0F6FF;
+    --bg-blue: rgb(188, 212, 253);
+    --box-shadow: 0px 4px 20px rgba(94, 94, 94, 0.25);
+    --text-blue: #0D51BE;
+    --text-grey: #414141;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F0F6FF;
+    color: var(--text-grey);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.font-maitree {
+    font-family: 'Maitree', serif;
+}
+
+.text-blue {
+    color: var(--text-blue);
+}
+
+.container {
+    padding: 0 8px;
+    overflow: hidden;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 10px;
+    }
+}

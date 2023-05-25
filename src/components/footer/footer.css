@@ -1,0 +1,30 @@
+footer {
+    position: relative;
+    text-align: center;
+    margin: 1.5rem 0;
+    overflow: visible !important;
+}
+
+.footer-text a:hover {
+    color: var(--text-blue);
+}
+
+
+footer .contact-me {
+    position: absolute;
+    right: 1rem;
+    bottom: -0.5rem;
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: var(--box-shadow);
+    border-radius: 0px 20px 20px 20px;
+}
+
+@media screen and (max-width: 767px) {
+    footer .contact-me {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 20px;
+    }
+}

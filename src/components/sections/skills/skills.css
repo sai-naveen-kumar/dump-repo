@@ -1,0 +1,47 @@
+#skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skills-body {
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 30px;
+}
+
+.skills-body .skill_bar {
+    grid-column: span 4;
+}
+
+@media screen and (max-width: 767px) {
+    .skills-body .skill_bar {
+        grid-column: span 6;
+    }
+}
+
+.skills-body .skill_bar .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.skill_bar .bar {
+    width: 100%;
+    height: 10px;
+    background-color: var(--bg-blue);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.skill_bar .bar span {
+    height: 100%;
+    position: absolute;
+    background-color: var(--text-blue);
+    border-radius: 25px;
+}

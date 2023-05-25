@@ -1,0 +1,82 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.about-info>div:first-of-type {
+    font-size: 2.2rem;
+}
+
+.about-info div span {
+    display: inline-block;
+}
+
+.about-info>p {
+    margin-top: 1.5rem;
+}
+
+.column {
+    flex: 1;
+}
+
+.pf-img .hero {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.about-info .mail-box {
+    display: flex;
+    margin: 1rem 0;
+    max-width: fit-content;
+    padding: 0.5rem 1rem;
+    background: #FFFFFF;
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-info .mail-box>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-button {
+    margin-left: 1rem;
+    width: 2.5rem;
+    height: 2rem;
+    background: var(--bg-blue);
+    border-radius: 10px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media>a {
+    margin: 0.5rem 1rem;
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (max-width: 767px) {
+    .about-info {
+        text-align: center;
+        align-items: center;
+    }
+
+    .pf-img {
+        position: absolute;
+    }
+}
