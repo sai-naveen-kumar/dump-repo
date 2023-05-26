@@ -43,7 +43,7 @@ function Skills(props) {
                 </div>
                 <div className="skills-body">
                     <Skill skill="Advanced Python (OOPS)" percentage="90" />
-                    <Skill skill="Django, React" percentage="85" />
+                    <Skill skill="Django, Flask,React" percentage="85" />
                     <Skill skill="HTML, CSS, Bootstrap" percentage="80" />
                     <Skill skill="Javascript" percentage="80" />
                     <Skill skill="PostegreSQL" percentage="60" />

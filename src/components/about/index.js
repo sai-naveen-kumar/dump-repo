@@ -9,7 +9,7 @@ function About(props) {
                 </div>
                 <div className="about-info column">
                     <div className="font-maitree">
-                        Hi, I’m <span className="text-blue font-maitree">Prem Kumar !</span>
+                        Hi, I’m <span className="text-blue font-maitree">Naveen Kumar !</span>
                     </div>
                     <p>
                         An experienced Full Stack Developer with a focus on building scalable web applications using
@@ -27,14 +27,14 @@ function About(props) {
                         technical background in Full Stack Development.
                     </p>
                     <div className="mail-box">
-                        <p>premkumarnunna@gmail.com</p>
-                        <a className="btn mail-button" href="mailto:premkumarnunna@gmail.com?body=%0AThis%20mail%20has%20been%20send%20with%20reference%20to%20the%20profile%20seen%20at%20https%3A%2F%2Fpremkumar0.github.io">
+                        <p>bsainaveenkumar@gmail.com</p>
+                        <a className="btn mail-button" href="mailto:bsainaveenkumar@gmail.com?body=%0AThis%20mail%20has%20been%20send%20with%20reference%20to%20the%20profile%20seen%20at%20https%3A%2F%2Fsai-naveen-kumar.github.io">
                             <img src={process.env.PUBLIC_URL + "/img/mail-to.svg"} alt="" />
                         </a>
                     </div>
                     <div className="social-media">
-                        <a href="https://www.linkedin.com/in/premkumar-n-6698601b1" target="_blank" rel="noopener noreferrer"><img className="social-icon" src={process.env.PUBLIC_URL + "/img/linkedin.svg"} alt="" /></a>
-                        <a href="https://twitter.com/premkumar_000" target="_blank" rel="noopener noreferrer"><img className="social-icon" src={process.env.PUBLIC_URL + "/img/twitter.svg"} alt="" /></a>
+                        <a href="https://www.linkedin.com/in/naveen-kumar-/" target="_blank" rel="noopener noreferrer"><img className="social-icon" src={process.env.PUBLIC_URL + "/img/linkedin.svg"} alt="" /></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img className="social-icon" src={process.env.PUBLIC_URL + "/img/twitter.svg"} alt="" /></a>
                         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img className="social-icon" src={process.env.PUBLIC_URL + "/img/facebook.svg"} alt="" /></a>
                         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img className="social-icon" src={process.env.PUBLIC_URL + "/img/instagram.svg"} alt="" /></a>
                     </div>

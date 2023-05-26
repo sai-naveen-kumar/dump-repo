@@ -33,30 +33,18 @@ function Resume(props) {
                             </p>
                             <ul>
                                 <li>Visakhapatnam-530017, India</li>
-                                <li>(+91) 9553261501</li>
-                                <li><a href="mailto:premkumarnunna@gmail.com">premkumarnunna@gmail.com</a></li>
+                                <li>(+91) 8074557609</li>
+                                <li><a href="mailto:bsainaveenkumar @gmail.com">bsainaveenkumar@gmail.com</a></li>
                             </ul>
                         </div>
                     </div>
                     <div id="education">
                         <h3 className="resume-title">Education</h3>
                         <div className="resume-item">
-                            <h4>Master of Computer Science &amp; Data Analytics</h4>
-                            <h5>2019 - 2021</h5>
+                            <h4>Bachelor of Technology in Computer Science</h4>
+                            <h5>2017 - 2021</h5>
                             <p>
-                                <em>Central University of Rajasthan, Ajmer</em>
-                            </p>
-                            <p>
-                                Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto
-                                autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti
-                                sand markend
-                            </p>
-                        </div>
-                        <div className="resume-item">
-                            <h4>Bachelor of Science in Computer Science</h4>
-                            <h5>2016 - 2019</h5>
-                            <p>
-                                <em>Silver Jubilee Govt Degree College, Kurnool</em>
+                                <em>Centurion University of Technology and Management, Visakhapatnam</em>
                             </p>
                             <p>
                                 Quia nobis sequi est occaecati aut. Repudiandae et iusto quae
@@ -69,10 +57,34 @@ function Resume(props) {
                     <div id="experience">
                         <h3 className="resume-title">Professional Experience</h3>
                         <div className="resume-item">
-                            <h4>Senior Software Developement Engineer</h4>
-                            <h5>2022 - Present</h5>
+                            <h4>Data Miner</h4>
+                            <h5>2023 - Present</h5>
                             <p>
-                                <em>Cloudearl Sol Pvt Ltd, Visakhapatnam, India </em>
+                                <b><em>ADP,Hyderabad </em></b>
+                            </p>
+                            <ul>
+                                <li>
+                                Implemented a python script to capture the compute resource metrics using SDK.
+                                </li>
+                                <li>
+                                Managed all levels of internal analytics practice, including ETL, database administration, report development and
+                                integration.{" "}
+                                </li>
+                                <li>
+                                Implemented ci/cd pipelines for both development and production deployments using GitLab webhooks and Jenkins
+                                pipelines.
+                                </li>
+                                <li>
+                                    Oversee the efficient use of production project budgets ranging from
+                                    $2,000 - $25,000
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="resume-item">
+                            <h4>Lead Engineer</h4>
+                            <h5>2021 - 2023</h5>
+                            <p>
+                                <b><em>Cloudearl Sol Pvt Ltd, Visakhapatnam</em></b>
                             </p>
                             <ul>
                                 <li>
@@ -90,31 +102,6 @@ function Resume(props) {
                                 <li>
                                     Oversee the efficient use of production project budgets ranging from
                                     $2,000 - $25,000
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="resume-item">
-                            <h4>Software Developer</h4>
-                            <h5>2021 - 2022</h5>
-                            <p>
-                                <em>Cloudearl Sol Pvt Ltd, Visakhapatnam, India </em>
-                            </p>
-                            <ul>
-                                <li>
-                                    Developed numerous marketing programs (logos,
-                                    brochures,infographics, presentations, and advertisements).
-                                </li>
-                                <li>
-                                    Managed up to 5 projects or tasks at a given time while under
-                                    pressure
-                                </li>
-                                <li>
-                                    Recommended and consulted with clients on the most appropriate
-                                    graphic design
-                                </li>
-                                <li>
-                                    Created 4+ design presentations and proposals a month for clients
-                                    and account managers
                                 </li>
                             </ul>
                         </div>

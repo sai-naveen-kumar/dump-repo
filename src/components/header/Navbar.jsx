@@ -6,7 +6,7 @@ function Navbar(props) {
         <nav className="navbar container" id="nav">
             <div className="navbrand" style={hmClicked ? { "zIndex": "2" } : { "zIndex": "0" }}>
                 <a href="/" className='font-maitree'>
-                    Prem.
+                    SNK.
                 </a>
             </div>
             <div className="menu-icon" onClick={handleClick} style={hmClicked ? { "zIndex": "2" } : { "zIndex": "0" }}>
