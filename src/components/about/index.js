@@ -4,8 +4,8 @@ function About(props) {
         <>
             <div className="about container" id="about" onClick={props.hmClicked ? props.handleClick : undefined}>
                 <div className="pf-img column">
-                    {/* <div className="ellipse mx-auto" /> */}
-                    {/* <img className="hero" src={process.env.PUBLIC_URL + "/img/prof-image.png"} alt="Hero" /> */}
+                    {/* <div className="ellipse mx-auto" />
+                    <img className="hero" src={process.env.PUBLIC_URL + "/img/prof-image.png"} alt="Hero" /> */}
                 </div>
                 <div className="about-info column">
                     <div className="font-maitree">

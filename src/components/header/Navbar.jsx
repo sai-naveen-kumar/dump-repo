@@ -1,5 +1,5 @@
 import React from 'react';
-
+// naveen-kumar-resume.pdf
 function Navbar(props) {
     const { hmClicked, handleClick } = props;
     return (
@@ -25,8 +25,8 @@ function Navbar(props) {
                     </a>
                 </li>
                 <li className="nav-link" >
-                    <a className="" href="#resume" onClick={handleClick}>
-                        Resume
+                    <a href = {process.env.PUBLIC_URL + "/Docs/naveen-kumar-resume.pdf"} target = "_blank" onClick={handleClick} rel="noopener noreferrer">
+                        Resume ⬇
                     </a>
                 </li>
                 <li className="nav-link" >

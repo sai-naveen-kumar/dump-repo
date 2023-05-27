@@ -24,7 +24,7 @@ function Resume(props) {
                     <div id="sumary">
                         <h3 className="resume-title">Sumary</h3>
                         <div className="resume-item">
-                            <h4>Premkumar Nunna</h4>
+                            <h4>Naveen Kumar</h4>
                             <p>
                                 Innovative and deadline-driven Graphic Designer with 3+ years of
                                 experience designing and developing user-centered digital/print

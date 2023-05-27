@@ -43,15 +43,15 @@ function Skills(props) {
                 </div>
                 <div className="skills-body">
                     <Skill skill="Advanced Python (OOPS)" percentage="90" />
-                    <Skill skill="Django, Flask,React" percentage="85" />
+                    <Skill skill="Data Engineer,ETL" percentage="80" />
+                    <Skill skill="Django, Flask" percentage="85" />
                     <Skill skill="HTML, CSS, Bootstrap" percentage="80" />
-                    <Skill skill="Javascript" percentage="80" />
-                    <Skill skill="PostegreSQL" percentage="60" />
-                    <Skill skill="MySQL" percentage="60" />
+                    <Skill skill="Javascript,React" percentage="80" />
+                    <Skill skill="PostegreSQL,MySQL" percentage="80" />
                     <Skill skill="Git" percentage="90" />
                     <Skill skill="Jenkins" percentage="75" />
                     <Skill skill="Docker" percentage="90" />
-                    <Skill skill="Gitlab CI/CD" percentage="65" />
+                    <Skill skill="Gitlab CI/CD" percentage="85" />
                     <Skill skill="Cloud Deployment" percentage="80" />
                     <Skill skill="AWS, GCP, Azure" percentage="70" />
                 </div>
